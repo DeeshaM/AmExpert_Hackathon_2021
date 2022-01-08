@@ -17,8 +17,7 @@ A mid-sized private bank that includes a variety of banking products, such as sa
 * Products (both B1 and B2) are converted to multi-hot encodings using MultiLabelBinarizer.
 * One hot encoding is used to convert categorical variables to numeric (Gender, Customer_Category and City_Category)
 * Age and Vintage Variables were scaled down by Normalization.
-* Different ML models like Logistic Regression, XGBoost, CatBoost & ANN are used.
-* Multioutputclassifier is used as a wrapper.
+* Different ML models like Logistic Regression, XGBoost, CatBoost & ANN are used with Multioutputclassifier.
 * Evaluation metrics used is average precision score.
 * Finalised ANN model based on the evaluation metrics.
 
